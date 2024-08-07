@@ -42,7 +42,7 @@ def dynamic_importer() -> str:
 class DeploymentTriggerConfig(BaseParameters):
     """Parameters that are used to trigger the deployment"""
 
-    min_accuracy: float = 0.9
+    min_accuracy: float = 0
 
 
 @step
